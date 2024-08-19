@@ -24,7 +24,7 @@ function Name() {
     initial={{x:-100, opacity:0}}
     animate={{x:0, opacity:1}}
     transition={{duration:1,delay:1.2}}
-     className='rounded-2xl ' src=".\images\good2.png" width={300}height={300} alt="Profile Picture" />
+     className='rounded-2xl ' src="good2.png" width={300}height={300} alt="Profile Picture" />
     
 </div>
 

@@ -16,7 +16,7 @@ function Experience() {
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         className='w-full lg:w-1/4'>
-          <img src=".\images\afri.png" alt="Africom Logo" />
+          <img src="afri.png" alt="Africom Logo" />
         </motion.div>
         <motion.div 
         whileInView={{opacity:1,x:0}}
@@ -42,7 +42,7 @@ importance of accurately capturing requirements.</p>
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         className='w-full lg:w-1/4'>
-          <img src=".\images\ethio.png" alt="Ethiopian Airlines Logo" width={250} height={250}/>
+          <img src="ethio.png" alt="Ethiopian Airlines Logo" width={250} height={250}/>
         </motion.div>
         <motion.div
          whileInView={{opacity:1,x:0}}
@@ -63,7 +63,7 @@ and support. Assisted in managing and optimizing Zoho applications for efficient
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         className='w-full lg:w-1/4'>
-          <img src=".\images\victory.png" alt="Victory Water"  />
+          <img src="victory.png" alt="Victory Water"  />
         </motion.div>
         <motion.div
          whileInView={{opacity:1,x:0}}

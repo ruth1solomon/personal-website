@@ -9,7 +9,7 @@ function Navbar() {
         
     <nav className='flex items-center justify-between py-6 '>
         <div className="flex items-center flex-shrink-0">
-            <img className='mx-2 ' src=".\images\logo1.png" width={150}height={150} alt="logo" />
+            <img className='mx-2 ' src="logo1.png" width={150}height={150} alt="logo" />
             
         </div>
         <div className='flex items-center justify-center gap-4 m-8 text-2xl'>
