@@ -3,13 +3,14 @@ import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa6";
 import {FaInstagram} from "react-icons/fa";
+import logo from "../img/logo1.png";
 function Navbar() {
   return (
     <div>
         
     <nav className='flex items-center justify-between py-6 '>
         <div className="flex items-center flex-shrink-0">
-            <img className='mx-2 ' src="logo1.png" width={150}height={150} alt="logo" />
+            <img className='mx-2 ' src={logo} width={150}height={150} alt="logo" />
             
         </div>
         <div className='flex items-center justify-center gap-4 m-8 text-2xl'>

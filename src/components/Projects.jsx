@@ -1,6 +1,9 @@
 import React from 'react';
 import {motion} from "framer-motion";
-
+import kids from "../img/kids.jfif";
+import hr from "../img/hr2.png";
+import portfolio from "../img/portfolio pic.jfif";
+import blockchain from "../img/Blockchain.png";
 
 
 function Projects() {
@@ -19,7 +22,7 @@ function Projects() {
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         className='w-full lg:w-1/4'>
-          <img className='mb-6 rounded' width={150} height={150} src="hr2.png" alt='HRMS' />
+          <img className='mb-6 rounded' width={150} height={150} src={hr} alt='HRMS' />
         </motion.div>
         <motion.div 
         whileInView={{opacity:1,x:0}}
@@ -37,7 +40,7 @@ function Projects() {
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         className='w-full lg:w-1/4'>
-          <img className='mb-6 rounded' width={150} height={150} src="Blockchain.png" alt='Block Chain Picture' />
+          <img className='mb-6 rounded' width={150} height={150} src={blockchain} alt='Block Chain Picture' />
         </motion.div>
         <motion.div
         whileInView={{opacity:1,x:0}}
@@ -59,7 +62,7 @@ It's like a digital vault that's super secure and impossible to tamper with.
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         className='w-full lg:w-1/4'>
-          <img className='mb-6 rounded' width={150} height={150} src="portfolio pic.jfif" alt='Portfolio Picture' />
+          <img className='mb-6 rounded' width={150} height={150} src={portfolio} alt='Portfolio Picture' />
         </motion.div>
         <motion.div
         whileInView={{opacity:1,x:0}}
@@ -77,7 +80,7 @@ It's like a digital vault that's super secure and impossible to tamper with.
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         className='w-full lg:w-1/4'>
-          <img className='mb-6 rounded' width={150} height={150} src="kids.jfif" alt='HRMS' />
+          <img className='mb-6 rounded' width={150} height={150} src={kids} alt='HRMS' />
         </motion.div>
         <motion.div
         whileInView={{opacity:1,x:0}}

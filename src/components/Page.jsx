@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import girl from "../img/girl.jpeg";
 
 function Page() {
   return (
@@ -16,7 +17,7 @@ className='my-20 text-4xl text-center'>About <span className='text-transparent b
   transition={{duration:1}}
   className='w-full lg:w-1/2 lg:p-8'>
     <div className='flex items-center justify-center'>
-      <img className='rounded-2xl' src="girl.jpeg" width={300} height={300} alt='About'/>
+      <img className='rounded-2xl' src={girl} width={300} height={300} alt='About'/>
     </div>
   </motion.div>
   <motion.div

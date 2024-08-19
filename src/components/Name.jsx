@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import good from "../img/good2.png";
 
 const container =(delay)=>({
 hidden:{x:100, opacity:0},
@@ -24,7 +25,7 @@ function Name() {
     initial={{x:-100, opacity:0}}
     animate={{x:0, opacity:1}}
     transition={{duration:1,delay:1.2}}
-     className='rounded-2xl ' src="good2.png" width={300}height={300} alt="Profile Picture" />
+     className='rounded-2xl ' src={good} width={300}height={300} alt="Profile Picture" />
     
 </div>
 
